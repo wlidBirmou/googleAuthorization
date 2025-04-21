@@ -11,3 +11,5 @@
 2025-04-21T13:26:15.175-04:00  INFO 166175 --- [googleAuthorization] [RMI TCP Connection(2)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
 2025-04-21T13:26:15.175-04:00  INFO 166175 --- [googleAuthorization] [RMI TCP Connection(2)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
 2025-04-21T13:26:15.177-04:00  INFO 166175 --- [googleAuthorization] [RMI TCP Connection(2)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-04-21T13:31:39.658-04:00  INFO 166175 --- [googleAuthorization] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-21T13:31:39.666-04:00  INFO 166175 --- [googleAuthorization] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
