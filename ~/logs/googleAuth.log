@@ -1,0 +1,13 @@
+2025-04-21T13:26:11.913-04:00  INFO 166175 --- [googleAuthorization] [main] c.d.g.GoogleAuthorizationApplication     : Starting GoogleAuthorizationApplication using Java 21.0.6 with PID 166175 (/home/rahim/IdeaProjects/googleAuthorization/target/classes started by rahim in /home/rahim/IdeaProjects/googleAuthorization)
+2025-04-21T13:26:11.919-04:00  INFO 166175 --- [googleAuthorization] [main] c.d.g.GoogleAuthorizationApplication     : The following 1 profile is active: "dev"
+2025-04-21T13:26:12.687-04:00  INFO 166175 --- [googleAuthorization] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-04-21T13:26:12.695-04:00  INFO 166175 --- [googleAuthorization] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-04-21T13:26:12.695-04:00  INFO 166175 --- [googleAuthorization] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-21T13:26:12.716-04:00  INFO 166175 --- [googleAuthorization] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-04-21T13:26:12.716-04:00  INFO 166175 --- [googleAuthorization] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 758 ms
+2025-04-21T13:26:13.168-04:00  INFO 166175 --- [googleAuthorization] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2025-04-21T13:26:13.222-04:00  INFO 166175 --- [googleAuthorization] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-04-21T13:26:13.242-04:00  INFO 166175 --- [googleAuthorization] [main] c.d.g.GoogleAuthorizationApplication     : Started GoogleAuthorizationApplication in 1.617 seconds (process running for 1.929)
+2025-04-21T13:26:15.175-04:00  INFO 166175 --- [googleAuthorization] [RMI TCP Connection(2)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-21T13:26:15.175-04:00  INFO 166175 --- [googleAuthorization] [RMI TCP Connection(2)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-04-21T13:26:15.177-04:00  INFO 166175 --- [googleAuthorization] [RMI TCP Connection(2)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
