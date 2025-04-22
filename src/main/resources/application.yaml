@@ -2,13 +2,18 @@ spring:
     application:
         name: googleAuthorization
     profiles:
-        active: dev
+        active: google
 ---
 spring: 
-    config:
-        activate: 
-            on-profile: dev
-
+  config:
+    activate: 
+      on-profile: google
+  security.oauth2.client.registration.google:
+    client-name: myalbum
+    client-id:  
+    client-secret:
+    authorization-grant-type: authorization_code
+    scope: openid, profile, email, https://www.googleapis.com/auth/photoslibrary.readonly
 
 logging:
   file:
@@ -16,3 +21,4 @@ logging:
   level:
     '[org.springframework]': INFO
     '[com.demo]': INFO
+    '[org.springframework.web.client.RestTemplate]' : DEBUG
